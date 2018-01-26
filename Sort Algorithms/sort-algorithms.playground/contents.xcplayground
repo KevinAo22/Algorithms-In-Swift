@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='macos'>
+    <pages>
+        <page name='general'/>
+        <page name='simple-insertion-sort'/>
+        <page name='shell-sort'/>
+        <page name='bubble-sort'/>
+        <page name='quicksort'/>
+        <page name='simple-selection-sort'/>
+        <page name='heap-sort'/>
+        <page name='merge-sort'/>
+        <page name='counting-sort'/>
+        <page name='radix-sort'/>
+        <page name='bucket-sort'/>
+    </pages>
+</playground>
