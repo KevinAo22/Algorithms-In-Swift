@@ -1,9 +1,10 @@
 # Algorithms-In-Swift
 
-[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/KevinAo22/Algorithms-In-Swift/blob/master/LICENSE)    [![Swift 4](https://img.shields.io/badge/LANGUAGE-Swift%204-orange.svg)](https://swift.org)
+[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/KevinAo22/Algorithms-In-Swift/blob/master/LICENSE)    [![GitHub Language](https://img.shields.io/badge/language-Swift%204-orange.svg)](https://swift.org)
 
-Implement most basic algorithms in Swift. Help myself and others.
-使用 Swift 实现大多数基础算法，帮助我重温，也帮助他人学习。
+Implement most basic algorithms in **Swift**. Help myself and others.
+
+使用 **Swift** 实现大多数基础算法，帮助我重温，也帮助他人学习。
 
 ## 1. Sort Algorithms (total 10) : 排序算法 （总计 10 种）
 
