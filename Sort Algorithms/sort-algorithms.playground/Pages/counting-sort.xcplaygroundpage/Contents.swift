@@ -4,10 +4,10 @@ var numsArray = Int.randomArray(range: Range<Int>(1..<100), count: 10)
 let numsArraySorted = numsArray.sorted()
 
 // 计数排序
-// 最差时间复杂度 ---- O(n)
-// 最优时间复杂度 ---- O(n)
-// 平均时间复杂度 ---- O(n)
-// 辅助空间复杂度 ---- O(n)
+// 最差时间复杂度 ---- O(n+k)
+// 最优时间复杂度 ---- O(n+k)
+// 平均时间复杂度 ---- O(n+k)
+// 辅助空间复杂度 ---- O(k)
 // 稳定性 ----------- 不稳定
 
 func countingSort(_ array: inout [Int]) {
