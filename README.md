@@ -19,5 +19,5 @@ Implement most basic algorithms in **Swift**. Help myself and others.
     - [x] Heap Sort - [堆排序]
 - [x] Merge Sort - [归并排序]
 - [x] Counting Sort - [计数排序]
-- [ ] Radix Sort - [基数排序]
+- [x] Radix Sort - [基数排序]
 - [ ] Bucket Sort - [桶排序]
