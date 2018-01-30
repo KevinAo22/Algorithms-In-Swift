@@ -22,44 +22,28 @@ I implemented most common **sort algorithms** on this playground. And the testin
 - [x] Radix Sort : 基数排序
 - [ ] Bucket Sort : 桶排序
 
-## Table of Contents : 目录
+## I. Insertion Sort : 插入排序
 
-* [1. Insertion Sort : 插入排序](#1. Insertion Sort : 插入排序)
-    * [1.1 Simple Insertion Sort : 简单插入排序](#1.1 Simple Insertion Sort : 简单插入排序)
-    * [1.2 Shell Sort : 希尔排序](#1.2 Shell Sort : 希尔排序)
-* [2. Exchange Sort : 交换排序](#2. Exchange Sort : 交换排序)
-    * [2.1 Bubble Sort : 冒泡排序](#2.1 Bubble Sort : 冒泡排序)
-    * [2.2 Quicksort : 快速排序](#2.2 Quicksort : 快速排序)
-* [3. Selection Sort : 选择排序](#3. Selection Sort : 选择排序)
-    * [3.1 Simple Selection Sort : 简单选择排序](#3.1 Simple Selection Sort : 简单选择排序)
-    * [3.2 Heap Sort : 堆排序](#3.2 Heap Sort : 堆排序)
-* [4. Merge Sort : 归并排序](#4. Merge Sort : 归并排序)
-* [5. Counting Sort : 计数排序](#5. Counting Sort : 计数排序)
-* [6. Radix Sort : 基数排序](#6. Radix Sort : 基数排序)
-* [Summary : 总结](#Summary : 总结)
+### I.a Simple Insertion Sort : 简单插入排序
 
-## 1. Insertion Sort : 插入排序
+### I.b Shell Sort : 希尔排序
 
-### 1.1 Simple Insertion Sort : 简单插入排序
+## II. Exchange Sort : 交换排序
 
-### 1.2 Shell Sort : 希尔排序
+### II.a Bubble Sort : 冒泡排序
 
-## 2. Exchange Sort : 交换排序
+### II.b Quicksort : 快速排序
 
-### 2.1 Bubble Sort : 冒泡排序
+## III. Selection Sort : 选择排序
 
-### 2.2 Quicksort : 快速排序
+### III.a Simple Selection Sort : 简单选择排序
 
-## 3. Selection Sort : 选择排序
+### III.b Heap Sort : 堆排序
 
-### 3.1 Simple Selection Sort : 简单选择排序
+## IV. Merge Sort : 归并排序
 
-### 3.2 Heap Sort : 堆排序
+## V. Counting Sort : 计数排序
 
-## 4. Merge Sort : 归并排序
-
-## 5. Counting Sort : 计数排序
-
-## 6. Radix Sort : 基数排序
+## VI. Radix Sort : 基数排序
 
 ## Summary : 总结
