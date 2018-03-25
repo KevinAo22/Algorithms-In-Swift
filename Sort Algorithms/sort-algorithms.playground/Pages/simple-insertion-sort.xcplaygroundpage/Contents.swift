@@ -10,7 +10,7 @@ let numsArraySorted = numsArray.sorted()
 // 辅助空间复杂度 ---- O(1)
 // 稳定性 ----------- 稳定
 
-func simpleInsertionSort(_ array: inout [Int]) {
+func simpleInsertionSort<T: Comparable>(_ array: inout [T]) {
     for i in 1..<array.count {
         if array[i] < array[i-1] {
             let temp = array[i]

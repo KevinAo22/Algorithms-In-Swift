@@ -10,7 +10,7 @@ let numsArraySorted = numsArray.sorted()
 // 辅助空间复杂度 ---- O(1)
 // 稳定性 ----------- 不稳定
 
-func simpleSelectionSort(_ array: inout [Int]) {
+func simpleSelectionSort<T: Comparable>(_ array: inout [T]) {
     for i in 0..<array.count {
         for j in (i+1)..<array.count {
             if array[i] > array[j] {

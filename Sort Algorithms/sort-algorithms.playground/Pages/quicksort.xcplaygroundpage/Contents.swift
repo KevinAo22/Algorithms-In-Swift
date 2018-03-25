@@ -10,7 +10,7 @@ let numsArraySorted = numsArray.sorted()
 // 辅助空间复杂度 ---- O(nlogn)
 // 稳定性 ----------- 不稳定
 
-func partition(_ array: inout [Int], low: Int, high: Int) -> Int {
+func partition<T: Comparable>(_ array: inout [T], low: Int, high: Int) -> Int {
     let privotKey = array[low]
     var low = low
     var high = high
@@ -27,7 +27,7 @@ func partition(_ array: inout [Int], low: Int, high: Int) -> Int {
     return low
 }
 
-func quickSort(_ array: inout [Int], low: Int, high: Int) {
+func quickSort<T: Comparable>(_ array: inout [T], low: Int, high: Int) {
     if low < high {
         let p = partition(&array, low: low, high: high)
         quickSort(&array, low: 0, high: p-1)

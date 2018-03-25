@@ -10,7 +10,7 @@ let numsArraySorted = numsArray.sorted()
 // 辅助空间复杂度 ---- O(1)
 // 稳定性 ----------- 稳定
 
-func bubbleSort(_ array: inout [Int]) {
+func bubbleSort<T: Comparable>(_ array: inout [T]) {
     for i in 0..<array.count {
         for j in 0..<(array.count-i-1) {
             if array[j] > array[j+1] {
@@ -24,7 +24,7 @@ func bubbleSort(_ array: inout [Int]) {
 
 // 冒泡排序改进版
 
-func bubbleSortBetter(_ array: inout [Int]) {
+func bubbleSortBetter<T: Comparable>(_ array: inout [T]) {
     var isChanged = true
     for i in 0..<array.count {
         if !isChanged {
