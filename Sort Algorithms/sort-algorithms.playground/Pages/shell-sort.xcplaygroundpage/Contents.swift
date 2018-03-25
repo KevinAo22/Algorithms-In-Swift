@@ -10,7 +10,7 @@ let numsArraySorted = numsArray.sorted()
 // 辅助空间复杂度 ---- O(1)
 // 稳定性 ----------- 不稳定
 
-func shellSort(_ array: inout [Int]){
+func shellSort<T: Comparable>(_ array: inout [T]){
     var increment = array.count / 2
     while increment >= 1 {
         for i in increment..<array.count {

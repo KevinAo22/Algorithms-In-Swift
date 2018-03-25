@@ -10,7 +10,7 @@ let numsArraySorted = numsArray.sorted()
 // 辅助空间复杂度 ---- O(1)
 // 稳定性 ----------- 不稳定
 
-func heapSort(_ array: inout [Int]){
+func heapSort<T: Comparable>(_ array: inout [T]){
     let count = array.count
     
     buildHeap(&array, count: count)
@@ -21,7 +21,7 @@ func heapSort(_ array: inout [Int]){
     }
 }
 
-func buildHeap(_ array: inout [Int], count: Int) {
+func buildHeap<T: Comparable>(_ array: inout [T], count: Int) {
     var i = count / 2 - 1;
     while i >= 0 {
         heapAdjust(&array, parent: i, count: count)
@@ -29,7 +29,7 @@ func buildHeap(_ array: inout [Int], count: Int) {
     }
 }
 
-func heapAdjust(_ array: inout [Int], parent: Int, count: Int) {
+func heapAdjust<T: Comparable>(_ array: inout [T], parent: Int, count: Int) {
     let temp = array[parent]
     var parent = parent
     var i = parent * 2 + 1
